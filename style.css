@@ -1,28 +1,44 @@
-/* Lesson 1 starter CSS file.
-   Add styles here in later lessons. */
-
 body {
    margin: 0;
+   font-family: sans-serif;
+   color: #000000;
+   background-color: rgb(255, 255, 255);
 }
 
 header {
-   background-color: aqua;
-   border-bottom: 1px solid black;
-}
+   background-image: linear-gradient(to right, #11AC70, #0B566F, #0B516F);
+   border: 1px solid black;
+   text-align: center;
 
-header p {
-   margin: 0;
+   p {
+      margin: 0;
+   }
 }
 
 nav {
-   border-bottom: 1px solid #dbe4f4;
-}
+   margin: 10px 0;
+   border-bottom: 1px solid #c2c2c2;
 
-a {
-   text-decoration: none;
+   a {
+      text-decoration: none;
+   }
 }
 
 header,
 nav {
    padding: 10px 0;
+   text-align: center;
+}
+
+main {
+   align-content: center;
+
+   .card {
+      border: 1px solid black;
+      margin: 10px 25px;
+      border-radius: 10px;
+      max-width: 60%;
+      margin: 15px auto;
+      padding: 10px;
+   }
 }
