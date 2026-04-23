@@ -1,86 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santander</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Santander - Viaggio di Istruzione</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header>
-        <p>VIAGGIO DI ISTRUZIONE</p>
-        <h1>Santander, Spagna</h1>
-        <p>Una surfata atlantica</p>
+    <header class="hero">
+        <div class="hero-content">
+            <p class="subtitle">VIAGGIO DI ISTRUZIONE</p>
+            <h1>Santander, Spagna</h1>
+            <p class="tagline">Una surfata atlantica</p>
+        </div>
     </header>
 
     <nav>
-        <a href="#Riguardo la gita">Riguardo la gita</a>
-        <a href="#Momenti salienti">Momenti salienti</a>
-        <a href="#Diario">diario</a>
-        <a href="#Consigli">Consigli</a>
+        <div class="nav-container">
+            <a href="#Riguardo-gita">Riguardo la gita</a>
+            <a href="#Momenti-salienti">Momenti salienti</a>
+            <a href="#Foto">Foto</a>
+            <a href="#Video">Video</a>
+            <a href="#Diario">Diario</a>
+            <a href="#Consigli">Consigli</a>
+        </div>
     </nav>
 
     <main>
-        <section id="Riguardo la gita" class="card">
-            <h2>Riguardo la gita</h2>
-            <p>Questa gita è stata una nuova esperienza per tutti noi, dato che nessuno aveva mai serfato nella sua vita:</p>
+        <section id="Riguardo-gita" class="fade-in">
+            <div class="section-header">
+                <h2>Riguardo la gita</h2>
+                <div class="divider"></div>
+            </div>
+            <p class="lead-text">Questa gita è stata una nuova esperienza per tutti noi, dato che nessuno aveva mai surfato nella sua vita.</p>
+            
+            <div class="stats-container">
+                <div class="stat-card">
+                    <span class="stat-icon">👥</span>
+                    <span class="stat-number">24</span>
+                    <span class="stat-label">Studenti</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">👨‍🏫</span>
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Professori</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">🏄‍♂️</span>
+                    <span class="stat-number">15</span>
+                    <span class="stat-label">Onde prese</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">🗣️</span>
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Frasi in spagnolo</span>
+                </div>
+            </div>
         </section>
 
-        <section id="Momento salienti" class="card">
-            <h2>Momento salienti</h2>
-            <article>
-                <h3>Momento saliente 1</h3>
-                <p>Jhvbjkdjfygefjhe</p>
-            </article>
-            <article>
-                <h3>Momento saliente 2</h3>
-                <p>kdfhbedjfhejfhejf</p>
-            </article>
-            <article>
-                <h3>Momento saliente 3</h3>
-                <p>ksdfjghgkfhbrejkhb</p>
-            </article>
-            <article>
-                <h3>Momento saliente 4</h3>
-                <p>sjkhdewjfhgeifygeufheg</p>
-            </article>
+        <section id="Momenti-salienti" class="bg-light">
+            <div class="section-header">
+                <h2>Momenti salienti</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-icon">🌊</div>
+                    <h3>Momento saliente 1</h3>
+                    <p>Jhvbjkdjfygefjhe</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏄‍♂️</div>
+                    <h3>Momento saliente 2</h3>
+                    <p>kdfhbedjfhejfhejf</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌅</div>
+                    <h3>Momento saliente 3</h3>
+                    <p>ksdfjghgkfhbrejkhb</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">✨</div>
+                    <h3>Momento saliente 4</h3>
+                    <p>sjkhdewjfhgeifygeufheg</p>
+                </div>
+            </div>
         </section>
 
-        <section id="Diario" class="card">
-            <h2>Diario giornaliero</h2>
-            <article>
-                <h3>Giorno 1</h3>
-                <p>kdfjbhkfjhrf</p>
-            </article>
-            <article>
-                <h3>Giorno 2</h3>
-                <p>krfhrkguhriguh</p>
-            </article>
-            <article>
-                <h3>Giorno 3</h3>
-                <p>lulifhrkfjhrkfjr</p>
-            </article>
-            <article>
-                <h3>Giorno 4</h3>
-                <p>kdufgrkbhrkfjbhrgfk</p>
-            </article>
+        <section id="Foto">
+            <div class="section-header">
+                <h2>Galleria Fotografica</h2>
+                <p>Alcuni scatti memorabili del nostro viaggio.</p>
+                <div class="divider"></div>
+            </div>
+            <div class="photo-grid">
+                <div class="photo-card">
+                    <img src="https://picsum.photos/400/300?random=1" alt="Arrivo a Santander">
+                    <div class="photo-overlay">
+                        <p>Il primo giorno in spiaggia</p>
+                    </div>
+                </div>
+                <div class="photo-card">
+                    <img src="https://picsum.photos/400/300?random=2" alt="Lezioni di surf">
+                    <div class="photo-overlay">
+                        <p>Pronti per le onde</p>
+                    </div>
+                </div>
+                <div class="photo-card">
+                    <img src="https://picsum.photos/400/300?random=3" alt="Pausa pranzo">
+                    <div class="photo-overlay">
+                        <p>Pausa pranzo con tapas</p>
+                    </div>
+                </div>
+                <div class="photo-card">
+                    <img src="https://picsum.photos/400/300?random=4" alt="Tramonto sull'oceano">
+                    <div class="photo-overlay">
+                        <p>Tramonto sull'Atlantico</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="Consigli" class="card">
-            <h2>Consigli per studenti futuri</h2>
-            <ul>
-                <li>Portare crema solare per le giornate in spiaggia</li>
-                <li>Rimanere sempre idratati</li>
-                <li>Portare scarpe da ginnastica per eventuali camminate</li>
-                <li>Portare occhiali da sole</li>
-                <li>Prepararsi ad un'avventura senza precedenti</li>
+        <section id="Video" class="bg-light">
+            <div class="section-header">
+                <h2>I Nostri Video</h2>
+                <p>Clip divertenti e documentari della gita.</p>
+                <div class="divider"></div>
+            </div>
+            <div class="grid-container">
+                <div class="video-card">
+                    <div class="video-placeholder">▶ Riproduzione non disponibile</div>
+                    <h3>Clip riassuntiva della classe</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-placeholder youtube-style">▶ Guarda il Vlog su YouTube</div>
+                    <h3>La nostra avventura a Santander</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="Diario">
+            <div class="section-header">
+                <h2>Diario Giornaliero</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Giorno 1</h3>
+                        <p>kdfjbhkfjhrf</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Giorno 2</h3>
+                        <p>krfhrkguhriguh</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Giorno 3</h3>
+                        <p>lulifhrkfjhrkfjr</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Giorno 4</h3>
+                        <p>kdufgrkbhrkfjbhrgfk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Consigli" class="bg-light">
+            <div class="section-header">
+                <h2>Voci degli Studenti</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="quotes-container">
+                <blockquote>
+                    <p>"Non avevo mai toccato una tavola da surf, ma cadere in acqua non è mai stato così divertente!"</p>
+                </blockquote>
+                <blockquote>
+                    <p>"La cosa più bella è stata fare gruppo in spiaggia, oltre ad assaggiare il cibo locale."</p>
+                </blockquote>
+            </div>
+            
+            <div class="section-header" style="margin-top: 50px;">
+                <h2>Consigli per studenti futuri</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <ul class="tips-list">
+                <li>☀️ Portare crema solare per le giornate in spiaggia</li>
+                <li>💧 Rimanere sempre idratati</li>
+                <li>👟 Portare scarpe da ginnastica per eventuali camminate</li>
+                <li>🕶️ Portare occhiali da sole</li>
+                <li>🚀 Prepararsi ad un'avventura senza precedenti</li>
             </ul>
         </section>
+
     </main>
 
-</body>
+    <footer>
+        <p>&copy; 2024 Progetto Web Santander - Viaggio di Istruzione</p>
+    </footer>
 
+</body>
 </html>
